@@ -10,11 +10,11 @@ root:
         children:
           - type: CMSStoriesWidget
          
-          - type: TopSlots
+          # - type: TopSlots
           
-           - type: CmsNotificationWidget
+          #  - type: CmsNotificationWidget
 
-          - type: TopBanners
+          # - type: TopBanners
 
           # - type: MultiWalletWidget
           
