@@ -1,43 +1,14 @@
-root:
-  type: scaffold
-  appBar:
-    type: MainAppBar
-  body:
-    type: customscrollview
-    children:
-      # ── All screen content as a single lazy SliverList ─────────────────────
-      - type: sliverlist
-        children:
-          - type: PartnersList
-
-          - type: PaymentsList
-        
-          - type: CMSStoriesWidget
-          
-          #  - type: CmsNotificationWidget
-         
-          # - type: TopBanners
-
-          # - type: MultiWalletWidget
-          
-          # - type: CMSStoriesWidget
-          
-          # - type: CMSMenuTopWidget
-
-          # - type: UpcomingEventsWidget
-
-          # - type: TopRecommendedMatches
-
-          # - type: PrematchPopularMatches
-
-          # - type: TopRecommendedSlots
-
-          # - type: AIRecommendedSlots
-
-          # - type: TopLives
-
-          # - type: TopTabGames
-
-          - type: TopFooterWidget
-
-          - type: TopSlots
+  root:
+    type: scaffold
+    appBar:
+      type: MainAppBar
+    body:
+      type: customscrollview
+      children:
+        - type: sliverlist
+          children:
+            - type: PartnersList
+            - type: PaymentsList
+            - type: CMSStoriesWidget
+            - type: TopFooterWidget
+            - type: TopSlots
