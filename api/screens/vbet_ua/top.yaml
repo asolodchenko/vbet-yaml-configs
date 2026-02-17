@@ -14,7 +14,8 @@ root:
         
           - type: CMSStoriesWidget
           
-          #  - type: CmsNotificationWidget÷
+          #  - type: CmsNotificationWidget
+         
           # - type: TopBanners
 
           # - type: MultiWalletWidget
@@ -39,4 +40,4 @@ root:
 
           - type: TopFooterWidget
 
-           - type: TopSlots
+          - type: TopSlots
