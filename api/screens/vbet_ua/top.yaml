@@ -8,11 +8,11 @@ root:
       # ── All screen content as a single lazy SliverList ─────────────────────
       - type: sliverlist
         children:
-          # - type: CmsNotificationWidget
+          - type: CmsNotificationWidget
 
-          # - type: CMSStoriesWidget
+          - type: CMSStoriesWidget
 
-          # - type: TopBanners
+          - type: TopBanners
 
           - type: MultiWalletWidget
 
