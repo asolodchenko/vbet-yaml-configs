@@ -1,0 +1,40 @@
+root:
+  type: scaffold
+  appBar:
+    type: MainAppBar
+  body:
+    type: customscrollview
+    children:
+      - type: sliverlist
+        children:
+          - type: CmsNotificationWidget
+
+          - type: CMSStoriesWidget
+
+          - type: TopBanners
+
+          - type: MultiWalletWidget
+
+          - type: CMSMenuTopWidget
+
+          - type: UpcomingEventsWidget
+
+          - type: TopRecommendedMatches
+
+          - type: PrematchPopularMatches
+
+          - type: TopSlots
+
+          - type: TopRecommendedSlots
+
+          - type: AIRecommendedSlots
+
+          - type: TopLives
+
+          - type: TopTabGames
+
+          - type: PartnersList
+
+          - type: PaymentsList
+
+          - type: TopFooterWidget

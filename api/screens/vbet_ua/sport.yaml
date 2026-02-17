@@ -1,0 +1,4 @@
+root:
+  type: scaffold
+  appBar:
+    type: MainAppBar

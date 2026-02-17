@@ -1,0 +1,32 @@
+router:
+  initialLocation: /top
+
+  # Bottom Navigation Bar (vbet-style)
+  navigationBar:
+    showLabels: true
+    type: vbet
+    iconSize: 24
+    elevation: 3
+
+  # Main tabs – each tab loads its own screen YAML from the server
+  # label: use $tr.<key> for translations, or a plain string as fallback
+  tabs:
+    - path: /top
+      label: "$tr.MAIN_BOTTOM_NAVIGATION_BAR.TABS.TOP"
+      icon: hot
+      url: http://127.0.0.1:8080/api/screens/vbet_ua/top.yaml
+
+    - path: /sport
+      label: "$tr.MAIN_BOTTOM_NAVIGATION_BAR.TABS.GAME"
+      icon: sports
+      url: http://127.0.0.1:8080/api/screens/vbet_ua/sport.yaml
+
+    - path: /casino
+      label: "$tr.MAIN_BOTTOM_NAVIGATION_BAR.TABS.CASINO"
+      icon: slots
+      url: http://127.0.0.1:8080/api/screens/vbet_ua/casino.yaml
+
+    - path: /games
+      label: "$tr.MAIN_BOTTOM_NAVIGATION_BAR.TABS.GAMES"
+      icon: games
+      url: http://127.0.0.1:8080/api/screens/vbet_ua/games.yaml
