@@ -7,9 +7,9 @@
       children:
         - type: sliverlist
           children:
-            - type: TopSlots
-            # - type: PartnersList
-            # - type: PaymentsList
+            - type: PartnersList
+            - type: PaymentsList
             - type: CMSStoriesWidget
-            - type: TopFooterWidget
+            - type: TopSlots
+            # - type: TopFooterWidget
   
