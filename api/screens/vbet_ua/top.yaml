@@ -11,7 +11,7 @@ root:
 
           - type: TopSlots
           
-          - type: CMSStoriesWidgetÏ
+          - type: CMSStoriesWidget
            
           # - type: CmsNotificationWidget
 
