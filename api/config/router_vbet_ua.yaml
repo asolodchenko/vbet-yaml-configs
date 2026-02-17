@@ -26,7 +26,7 @@ router:
       icon: slots
       url: https://raw.githubusercontent.com/asolodchenko/vbet-yaml-configs/main/api/screens/vbet_ua/casino.yaml
 
-    # - path: /games
-    #   label: "$tr.MAIN_BOTTOM_NAVIGATION_BAR.TABS.GAMES"
-    #   icon: games
-    #   url: https://raw.githubusercontent.com/asolodchenko/vbet-yaml-configs/main/api/screens/vbet_ua/games.yaml
+    - path: /games
+      label: "$tr.MAIN_BOTTOM_NAVIGATION_BAR.TABS.GAMES"
+      icon: games
+      url: https://raw.githubusercontent.com/asolodchenko/vbet-yaml-configs/main/api/screens/vbet_ua/games.yaml
