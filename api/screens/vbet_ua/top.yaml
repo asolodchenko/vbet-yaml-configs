@@ -8,12 +8,13 @@ root:
       # ── All screen content as a single lazy SliverList ─────────────────────
       - type: sliverlist
         children:
-          - type: CMSStoriesWidget
-         
-          - type: TopSlots
-          
-          #  - type: CmsNotificationWidget
+          - type: PartnersList
 
+          - type: PaymentsList÷
+        
+          - type: CMSStoriesWidget
+          
+          #  - type: CmsNotificationWidget÷
           # - type: TopBanners
 
           # - type: MultiWalletWidget
@@ -36,8 +37,6 @@ root:
 
           # - type: TopTabGames
 
-          - type: PartnersList
-
-          - type: PaymentsList
-
           - type: TopFooterWidget
+
+           - type: TopSlots
