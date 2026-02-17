@@ -14,18 +14,19 @@ root:
 
           - type: TopBanners
 
-          # - type: MultiWalletWidget
+          - type: MultiWalletWidget
           
           - type: CMSStoriesWidget
-          # - type: CMSMenuTopWidget
+          
+          - type: CMSMenuTopWidget
 
-          # - type: UpcomingEventsWidget
+          - type: UpcomingEventsWidget
 
-          # - type: TopRecommendedMatches
+          - type: TopRecommendedMatches
 
-          # - type: PrematchPopularMatches
+          - type: PrematchPopularMatches
 
-          # - type: TopSlots
+          - type: TopSlots
 
           - type: TopRecommendedSlots
 
@@ -39,4 +40,4 @@ root:
 
           # - type: PaymentsList
 
-          # - type: TopFooterWidget
+          - type: TopFooterWidget
