@@ -10,12 +10,13 @@ root:
         children:
           - type: CmsNotificationWidget
 
-          - type: CMSStoriesWidget
+    
 
           - type: TopBanners
 
-          - type: MultiWalletWidget
-
+          # - type: MultiWalletWidget
+          
+          - type: CMSStoriesWidget
           # - type: CMSMenuTopWidget
 
           # - type: UpcomingEventsWidget
@@ -26,7 +27,7 @@ root:
 
           # - type: TopSlots
 
-          # - type: TopRecommendedSlots
+          - type: TopRecommendedSlots
 
           # - type: AIRecommendedSlots
 
