@@ -10,8 +10,6 @@ root:
         children:
           - type: CmsNotificationWidget
 
-    
-
           - type: TopBanners
 
           - type: MultiWalletWidget
