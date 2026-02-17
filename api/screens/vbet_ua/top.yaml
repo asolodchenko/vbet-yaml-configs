@@ -10,7 +10,7 @@ root:
         children:
           - type: PartnersList
 
-          - type: PaymentsList÷
+          - type: PaymentsList
         
           - type: CMSStoriesWidget
           
