@@ -16,26 +16,26 @@ root:
 
           - type: MultiWalletWidget
 
-          - type: CMSMenuTopWidget
+          # - type: CMSMenuTopWidget
 
-          - type: UpcomingEventsWidget
+          # - type: UpcomingEventsWidget
 
-          - type: TopRecommendedMatches
+          # - type: TopRecommendedMatches
 
-          - type: PrematchPopularMatches
+          # - type: PrematchPopularMatches
 
-          - type: TopSlots
+          # - type: TopSlots
 
-          - type: TopRecommendedSlots
+          # - type: TopRecommendedSlots
 
-          - type: AIRecommendedSlots
+          # - type: AIRecommendedSlots
 
-          - type: TopLives
+          # - type: TopLives
 
-          - type: TopTabGames
+          # - type: TopTabGames
 
-          - type: PartnersList
+          # - type: PartnersList
 
-          - type: PaymentsList
+          # - type: PaymentsList
 
-          - type: TopFooterWidget
+          # - type: TopFooterWidget
