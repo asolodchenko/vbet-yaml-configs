@@ -8,7 +8,7 @@ router:
     iconSize: 24
     elevation: 3
 
-  # Main tabs – each tab loads its own screen YAML from GitHub
+  # Main tabs - each tab loads its own screen YAML from GitHub
   # label: use $tr.<key> for translations, or a plain string as fallback
   tabs:
     - path: /top
