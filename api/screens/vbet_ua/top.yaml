@@ -28,14 +28,14 @@ root:
 
           - type: TopRecommendedSlots
 
-          - type: AIRecommendedSlots
+          # - type: AIRecommendedSlots
 
-          - type: TopLives
+          # - type: TopLives
 
-          - type: TopTabGames
+          # - type: TopTabGames
 
-          - type: PartnersList
+          # - type: PartnersList
 
-          - type: PaymentsList
+          # - type: PaymentsList
 
-          - type: TopFooterWidget
+          # - type: TopFooterWidget
