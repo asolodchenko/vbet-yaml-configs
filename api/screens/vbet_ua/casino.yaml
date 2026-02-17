@@ -2,3 +2,21 @@ root:
   type: scaffold
   appBar:
     type: MainAppBar
+  body:
+    type: customscrollview
+    children:
+      - type: sliverlist
+        children:
+          - type: CmsNotificationWidget
+
+          - type: CMSStoriesWidget
+
+          - type: TopBanners
+
+          - type: TopSlots
+
+          - type: TopRecommendedSlots
+
+          - type: AIRecommendedSlots
+
+          - type: TopLives

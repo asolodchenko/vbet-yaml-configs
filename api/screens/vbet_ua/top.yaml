@@ -5,6 +5,7 @@ root:
   body:
     type: customscrollview
     children:
+      # ── All screen content as a single lazy SliverList ─────────────────────
       - type: sliverlist
         children:
           - type: CmsNotificationWidget
